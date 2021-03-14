@@ -1,0 +1,18 @@
+{
+  "Tulip": {
+    "Price": 5,
+    "Quantity": 200
+  },
+  "Rose": {
+    "Price": 7,
+    "Quantity": 100
+  },
+  "Lilly": {
+    "Price": 12,
+    "Quantity": 75
+  },
+  "Cactus": {
+    "Price": 25,
+    "Quantity": 5
+  }
+}
