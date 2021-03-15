@@ -55,14 +55,14 @@ $order = new Order();
     </table>
 
     <form action="/" method="get">
-        <label for="cars">Enter your gender:</label>
+        <label for="gender">Enter your gender:</label>
 
         <select name="gender">
             <option value="male">Male</option>
             <option value="female">Female</option>
         </select>
 
-        <label for="cars">Select Flowers:</label>
+        <label for="flowers">Select Flowers:</label>
 
         <select name="flower">
             <?php foreach ($shop->products()->all() as ['product' => $product, 'amount' => $amount]) { ?>
@@ -70,7 +70,7 @@ $order = new Order();
             <?php } ?>
         </select>
 
-        <label for="fname">Select amount:</label>
+        <label for="amount">Select amount:</label>
         <input type="number" name="amount"><br><br>
         <input type="submit" name="submit">
     </form>
